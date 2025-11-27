@@ -40,3 +40,4 @@ jobs:
             {
               "docker_image": "${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:${{ github.sha }}"
             }
+              
